@@ -1,0 +1,4 @@
+Name: CommDrivers
+Type: FolderType
+Children:
+- File: ASEMEtherNet_IPDriver1/ASEMEtherNet_IPDriver1.yaml

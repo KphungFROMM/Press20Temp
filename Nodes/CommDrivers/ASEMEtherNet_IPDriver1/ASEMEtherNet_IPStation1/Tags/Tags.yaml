@@ -1,0 +1,4875 @@
+Name: Tags
+Type: BaseObjectType
+Children:
+- Name: Controller Tags
+  Type: TagStructure
+  Children:
+  - Name: 'IFM_IOLink_680:I1'
+    Type: '_0142:AL1122_04852EE3:I:0'
+    Children:
+    - Name: ConnectionFaulted
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IFM_IOLink_680:I1.ConnectionFaulted"
+    - Name: Data
+      Id: g=dba9a4c25b66705900290bf793be838e
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [223]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IFM_IOLink_680:I1.Data"
+  - Name: 'IFM_IOLink_681:I1'
+    Type: '_0142:AL1122_04852EE3:I:0'
+    Children:
+    - Name: ConnectionFaulted
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IFM_IOLink_681:I1.ConnectionFaulted"
+    - Name: Data
+      Id: g=e10c008ef457e5389b7c32993e5286e7
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [223]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "IFM_IOLink_681:I1.Data"
+  - Name: cjn1
+    Type: EthernetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "cjn1"
+  - Name: O50P1
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P1.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.PcParam"
+    - Name: Temperature
+      Id: g=8725f434d88b207731daf6c2ed9ba1cb
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.Temperature"
+    - Name: Current
+      Id: g=f85d5e8918b009f06e75872b47b79bd9
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P1.Power"
+  - Name: O50P2
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P2.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.PcParam"
+    - Name: Temperature
+      Id: g=095be7f131eb66a966996801d703f2df
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.Temperature"
+    - Name: Current
+      Id: g=f7ab44d89683e00732bc7cc5c99e3898
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P2.Power"
+  - Name: O50P3
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P3.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P3.Power"
+  - Name: O50P4
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P4.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P4.Power"
+  - Name: O50P5
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P5.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P5.Power"
+  - Name: O50P6
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P6.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P6.Power"
+  - Name: O50P7
+    Type: Motor
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[0].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[0].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[0].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[0].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[0].DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[1].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[1].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[1].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[1].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[1].DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[2].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[2].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[2].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[2].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[2].DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[3].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[3].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[3].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[3].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[3].DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[4].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[4].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[4].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[4].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[4].DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[5].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[5].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[5].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[5].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[5].DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[6].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[6].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[6].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[6].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[6].DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[7].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[7].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[7].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[7].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[7].DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[8].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[8].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[8].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[8].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[8].DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[9].PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[9].ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[9].EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[9].TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "O50P7.IntTimer[9].DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50P7.Power"
+  - Name: O50Trasd
+    Type: TagStructure
+    Children:
+    - Name: PR1
+      Id: g=ad8c3484770eac1e6262a9e272439721
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [20]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "O50Trasd.PR1"
+  - Name: O51SvOut
+    Id: g=b7052f5fead099e497f8dc6a73e02846
+    Type: EthernetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "O51SvOut"
+  - Name: O51SvOut_tmp
+    Type: EthernetIPTag
+    DataType: Float
+    ValueRank: OneDimension
+    ArrayDimensions: [16]
+    Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "O51SvOut_tmp"
+  - Name: Pump_Run_Hours
+    Type: TagStructureArray
+    Children:
+    - Name: ArrayDimensions
+      Type: PropertyType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [10]
+    - Name: 0
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[0].UN"
+    - Name: 1
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].PRE"
+      - Name: ACC
+        Id: g=c7ae014d64428dc8ee4badbef169a9e6
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[1].UN"
+    - Name: 2
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[2].UN"
+    - Name: 3
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[3].UN"
+    - Name: 4
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[4].UN"
+    - Name: 5
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[5].UN"
+    - Name: 6
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[6].UN"
+    - Name: 7
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[7].UN"
+    - Name: 8
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[8].UN"
+    - Name: 9
+      Type: COUNTER
+      Children:
+      - Name: PRE
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].PRE"
+      - Name: ACC
+        Type: EthernetIPTag
+        DataType: Int32
+        Value: 0
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].ACC"
+      - Name: CU
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].CU"
+      - Name: CD
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].CD"
+      - Name: DN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].DN"
+      - Name: OV
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].OV"
+      - Name: UN
+        Type: EthernetIPTag
+        DataType: Boolean
+        Value: false
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Pump_Run_Hours[9].UN"
+  - Name: VibrationSensor_Setpoint
+    Id: g=37a7b70d827bcd4fcca686d7ce9268cd
+    Type: EthernetIPTag
+    DataType: Int32
+    ValueRank: OneDimension
+    ArrayDimensions: [30]
+    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VibrationSensor_Setpoint"

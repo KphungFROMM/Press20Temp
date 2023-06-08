@@ -1,0 +1,1132 @@
+Name: ASEMEtherNet_IPStation1
+Id: g=d365a54b22fa6b0b7dfc057dfc040eb6
+Type: EthernetIPStation
+Children:
+- Name: MaximumJobSizeInBytes
+  Type: BaseDataVariableType
+  DataType: UInt32
+  Value: 504
+- Name: IPAddress
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "147.154.158.76/1:0"
+- Name: Port
+  Type: BaseDataVariableType
+  DataType: UInt16
+  Value: 44818
+- Name: Timeout
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:01:0.0000000"
+- Name: PhysicalAddressOptimization
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=6;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=6;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=6;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=6;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=6;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=6;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType
+  Children:
+  - Name: COUNTER
+    Id: g=f8c15ba92279b3c364ce359061dbd8b3
+    Supertype: TagStructure
+    Children:
+    - Name: PRE
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: ACC
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: CU
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CU"
+    - Name: CD
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CD"
+    - Name: DN
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+    - Name: OV
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "OV"
+    - Name: UN
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "UN"
+  - Name: Motor
+    Id: g=469a295496b222a8f9781ebbcf718a15
+    Supertype: TagStructure
+    Children:
+    - Name: ExtBit
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ExtBit"
+    - Name: Alarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Alarms"
+    - Name: Warnings
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Warnings"
+    - Name: AuxAlarms
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "AuxAlarms"
+    - Name: State
+      Type: EthernetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "State"
+    - Name: IntTimer
+      Type: TagStructureArray
+      Children:
+      - Name: ArrayDimensions
+        Type: PropertyType
+        DataType: UInt32
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: [10]
+      - Name: 0
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 1
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 2
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 3
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 4
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 5
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 6
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 7
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 8
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+      - Name: 9
+        Type: TIMER
+        Children:
+        - Name: PRE
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "PRE"
+        - Name: ACC
+          Type: EthernetIPTag
+          DataType: Int32
+          Value: 0
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "ACC"
+        - Name: EN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "EN"
+        - Name: TT
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "TT"
+        - Name: DN
+          Type: EthernetIPTag
+          DataType: Boolean
+          Value: false
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "DN"
+    - Name: PcParam
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PcParam"
+    - Name: Temperature
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Temperature"
+    - Name: Current
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Current"
+    - Name: LineCurrent
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "LineCurrent"
+    - Name: Power
+      Type: EthernetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Power"
+  - Name: TIMER
+    Id: g=064d9a03036357366650e17f8fbb7be3
+    Supertype: TagStructure
+    Children:
+    - Name: PRE
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRE"
+    - Name: ACC
+      Type: EthernetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ACC"
+    - Name: EN
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "EN"
+    - Name: TT
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "TT"
+    - Name: DN
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "DN"
+  - Name: Transducer
+    Id: g=6934352569505887643e795c3a48faf5
+    Supertype: TagStructure
+    Children:
+    - Name: PR1
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [20]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR1"
+    - Name: PR1_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR1_Fault"
+    - Name: PR2
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR2"
+    - Name: PR2_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR2_Fault"
+    - Name: PR3
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR3"
+    - Name: PR3_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR3_Fault"
+    - Name: PR4
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR4"
+    - Name: PR4_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR4_Fault"
+    - Name: PR5
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR5"
+    - Name: PR5_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR5_Fault"
+    - Name: PR6
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR6"
+    - Name: PR6_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR6_Fault"
+    - Name: PR7
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR7"
+    - Name: PR7_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR7_Fault"
+    - Name: PR8
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR8"
+    - Name: PR8_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR8_Fault"
+    - Name: PR9
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR9"
+    - Name: PR9_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR9_Fault"
+    - Name: PR10
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR10"
+    - Name: PR10_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR10_Fault"
+    - Name: PR11
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR11"
+    - Name: PR11_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR11_Fault"
+    - Name: PR12
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR12"
+    - Name: PR12_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR12_Fault"
+    - Name: PR13
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR13"
+    - Name: PR13_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR13_Fault"
+    - Name: PR14
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR14"
+    - Name: PR14_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [40]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR14_Fault"
+    - Name: PR20
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [20]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR20"
+    - Name: PR20_Fault
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [80]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PR20_Fault"
+    - Name: PRS
+      Type: EthernetIPTag
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [10]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PRS"
+    - Name: Power_Communication_Faults
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [6]
+      Value: [0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Power_Communication_Faults"
+  - Name: '_0142:AL1122_04852EE3:I:0'
+    Id: g=034115833caf408967d03338c4af6671
+    Supertype: TagStructure
+    Children:
+    - Name: ConnectionFaulted
+      Type: EthernetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ConnectionFaulted"
+    - Name: Data
+      Type: EthernetIPTag
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [223]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Data"

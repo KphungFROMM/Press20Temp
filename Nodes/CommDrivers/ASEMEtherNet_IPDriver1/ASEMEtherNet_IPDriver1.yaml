@@ -1,0 +1,4 @@
+Name: ASEMEtherNet_IPDriver1
+Type: EthernetIPDriver
+Children:
+- File: ASEMEtherNet_IPStation1/ASEMEtherNet_IPStation1.yaml
